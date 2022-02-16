@@ -11,20 +11,20 @@
     border:3px solid black; 
 }
 
-td{
+#board td{
     border:1px solid rgba(95, 93, 93, 0.918);
     width:60px;
     height:60px;
 }
-td:first-child{
+#board td:first-child{
     border-left-color: black;
 }
 
-td:nth-child(3n){
+#board td:nth-child(3n){
     border-right-color: black;
     border-right-width:2px;
 }
-tr:nth-child(3n) td {
+#board tr:nth-child(3n) td {
 	border-bottom-color: rgb(0, 0, 0);
     border-bottom-width: 2px;
 }
@@ -39,14 +39,36 @@ tr:nth-child(3n) td {
     margin-top: 30px;
     border:1px solid black; 
 }
+
+
 #board{
     margin-top: 100px;
 
 }
 
-user-input{
+.user-input{
     background-color: #f2f2f2;
 }
-error{
+.error{
     background-color: #f76c5e;
 }
+
+.navbar-nav > li{
+    padding-left:30px;
+  }
+
+
+#sp{
+    padding-left:30px;
+}
+
+.table{
+    width: 65%;
+    height: 65%;
+    margin:auto;
+    text-align: center;
+    border-color:rgb(255, 255, 255);
+}
+
+
+
